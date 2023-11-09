@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #FF6969;
+}
+nav{
+    width: 100%;
+    background-color: #141E46;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+nav ul li a{
+    display: block;
+    color: orange;
+    padding: 20px;
+    text-decoration: none;
+    transition: all 2s;
+}
+nav ul li a:hover{
+    background-color: orange;
+    color: #141E46;
+}
+header{
+    width: 100%;
+    height: 350px;
+    background-image: url(./imagenes/pexels-mateusz-dach-450035.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+section{
+    width: 90%;
+    padding: 20px 15px 0 5px;
+    margin: auto;
+    text-align: justify;
+}
+p{
+    margin: 16px 0 ;
+    line-height: 150%;
+}
+footer{
+    width: 100%;
+    height: 50px;
+    background-color: #FFF5E0;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+}
+.contenedor_principal{
+  
+    width: 100%;
+    height: 500px;
+}
+.contenedor_tarjeta{
+    
+    display: flex;
+    justify-content: center;
+}
+.tarjeta{
+    background-color: #FF6969;
+    width: 300px;
+    height: 490px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 20px rgba(0, 0, 0, 0.5);
+}
+.uno{
+    background-image: url(./imagenes/pexels-bich-tran-1714341.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.dos{
+    background-image: url(./imagenes/pexels-jeshootscom-530024.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.tres{
+    background-image: url(./imagenes/pexels-mateusz-dach-450035.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.cuatro{
+    background-image: url(./imagenes/pexels-olia-danilevich-4974914.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.seccion-intro{
+    background-color: #FFF;
+    width: 100%;
+}
+.intro{
+    width: 70%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.intro-titulo{
+    font-size: 100px;
+    font-weight: bold;
+}
+.intro-subtitulo{
+    font-size: 90px;
+}
+.intro-detalle{
+    font-size: 60px;
+    margin: 20px 0;
+    color: #8ecddd;
+    font-weight: bold
+}
+.intro-img{
+    width: 100%;
+    width: 370px;
+}
+.pie-pagina{
+    width: 100%;
+    height: 300px;
+    background-color: #22668d;
+    color: #FFF;
+    line-height: 50px;
+}
+.pie-superior{
+    width: 70%;
+    height: 300px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+.logo{
+    line-height: normal;
+    letter-spacing: 5px;
+}
+.pie-inferior{
+    background-color: #15608b7e;
+    text-align: center;
+}
+.red-social a{
+display: inline-block;
+text-decoration: none;
+font-size: 15px;
+width: 40px;
+height: 40px;
+line-height: 45px;
+color: #15608b7e;
+margin: 0 5px;
+background-color: #8ecddd;
+text-align: center;
+border-radius: 50%;
+transition: all 0.5s ease-in-out;
+}
+.red-social a:hover{
+    text-decoration: none;
+    font-size: 25px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #15608b7e;
+    color: #8ecddd;
+}
+.formulario{
+    width: 60%;
+    margin: 50px auto;
+    padding: 15px;
+    border: 1px solid #900c3f;
+    background: #900c3f;
+    color: white;
+}
+input, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: 1px solid #ccc;
+}
+.guardar{
+    width: 100%;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.guardar:hover{
+    background-color: #044906;
+}
+.cancelar{
+    width: 100%;
+    font-size: 16px;
+    background-color: #fc9d9d;
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    transition: all 1s;
+}
+.cancelar:hover{
+    background-color: #fd5959;
+}
